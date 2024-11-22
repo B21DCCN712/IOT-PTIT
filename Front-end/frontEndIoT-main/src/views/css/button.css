@@ -1,0 +1,29 @@
+.rotate {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.animate-icon {
+  animation: brighten 1s linear infinite alternate;
+}
+
+@keyframes brighten {
+  0% {
+      filter: brightness(100%);
+  }
+
+  100% {
+      filter: brightness(350%);
+      color: rgb(110, 77, 6);
+  }
+}
+
+.color{
+  color: yellow;
+}

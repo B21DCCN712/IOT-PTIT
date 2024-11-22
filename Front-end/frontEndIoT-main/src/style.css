@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px 150px 150px ;
+    width: 100%;
+}
+
+a {
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ccc;
+    background-color: #6108ef;
+}
+
+.name {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.device-list {
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.device-item {
+    padding: 20px;
+    flex: 0 0 calc(50% - 20px); /* Chiếm 50% chiều rộng trừ đi khoảng cách (gap) */
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.link {
+    display: block;
+}
+
+.device-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    height: 100%;
+    min-height: 170px;
+    border-radius: 10px;
+    border: 1px dashed #d2d1d6;
+}
+
+.icon-add {
+    padding: 0;
+    font-family: inherit;
+    color: inherit;
+    outline: none;
+    border: none;
+}
+
+.desc-add {
+    font-size: 20x;
+    font-weight: 500;
+    line-height: 142.857%;
+}
+
+
+
